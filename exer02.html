@@ -10,54 +10,40 @@
     <a href="circulo2"></a>
     <a href="circulo3"></a>
     <a href="circulo4"></a>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
+    <div></div>
+<style>
+  body{
+    background:#62306D;
+  }
+  div {
+    width: 100px;
+    height: 150px;
+    border-radius: 100px;
+    position: absolute;
+  }
 
-        }
-        body{
-            background-color: #62306D;
-        }
+  div: before{
+    content: "";
+    width: 100px;
+    height: 100;
+    background: #F7EC7D;
+    position: absolute;]
+    border-radius: 50%;
+  }
+div: nth-last-of-type(1){
+  background: #AA445F;
+  top: 50px;
+  right: 50%;
+  transform: translateX(-20px);
+}
+  div: nth-last-of-type(2){
+    background: #E38F66;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(20px);
+  }
 
-        .circulo1{
-            height:150px;
-            width: 100px;
-            position: absolute;
-            border-radius: 100px;
-        }
-        div:nth-of-type(1){
-         background: #AA445F;
-         top: 50px;
-
-
-        }
-        .circulo2{
-            left: 1000px;
-            top:100px;
-            height: 100px;
-            width: 100px;
-            position: absolute;
-            background-color: #fdc57b;
-
-        }
-        .circulo3{
-            left:1000px;
-            top: 400px;
-            height: 100px;
-            width:  100px;
-            position: absolute;
-            background-color: #fdc57b;
-        }
-            .circulo4{
-            left:100px;
-            top: 400px;
-            height: 100px;
-            width:  100px;
-            position: absolute;
-            background-color: #fdc57b;
-            }
-
+  
 </style>
 </body>
 </html>
